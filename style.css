@@ -1,0 +1,55 @@
+body {
+    background-color: #f8e8ee; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    color: #6a0572; 
+    margin-top: 20px;
+}
+
+form {
+     background-color: #ffffff;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%; /* Instead of fixed px value */
+    max-width: 400px; /* Max width for big screens */
+    border: 3px solid #d3a0c0;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #6a0572;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d3a0c0;
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #6a0572;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #4a0245;
+}
